@@ -7,7 +7,7 @@ class LandingPage extends Component {
       <div className="app">
         <div className="card">
           <h1>Simple todo</h1>
-          <p>This is a beginers project TODO built with MERN</p>
+          <p>This is a beginers project TODO built with MERN by sheshi vardhan</p>
           <div className="buttons">
             <Link to="/login">
               <button>Login</button>
