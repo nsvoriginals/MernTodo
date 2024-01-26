@@ -1,0 +1,35 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e; /* Dark background color */
+    padding: 1rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle lift */
+  }
+  
+  .logo a {
+    color: #fff; /* White text color for the logo */
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-link {
+    color: #fff; /* White text color for the links */
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: color 0.3s; /* Smooth color transition on hover */
+  
+    &:hover {
+      color: #61dafb; /* Highlight color on hover */
+    }
+  }
+  
+  .active {
+    border-bottom: 2px solid #61dafb; /* Highlight the active link with an underline */
+  }
+  
